@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>
+Guessing game
+</title>
+</head>
+<body>
+	<p> 
+		Hello, This is a guessing game. <br>
+		Please select a number between 1 and 10.
+	</p>
+
+	<p>
+		<input type="text" id="x" value=""> 
+		<button onclick="gin()"> click me </button>
+		<button onclick="checker()">check</button>
+	</p>
+
+<script type="text/javascript">
+	var y = 7;
+	var a = document.getElementById("x").value;
+	function gin() { if (y == a)
+	{
+	alert("you win");
+	}
+	else
+	{
+		alert("you lose");
+	}
+	}
+	function checker() {
+		alert("you entered" + a )
+	}
+
+</script>
+</body>
+</html>
+
+
