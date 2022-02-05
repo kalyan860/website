@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>
+Guessing game
+</title>
+</head>
+<body>
+	<p> 
+		Hello, This is a guessing game. <br>
+		Please select a number between 1 and 10.
+	</p>
+	<p>
+		<input type="text" id="x">
+		<button onclick="gin()"> click me </button>
+	<p>
+	Click this link to learn about spaced repetition: 
+	<a href="spacedrepetition.html"> link </a>
+	</p>
+
+<script>
+	var y = 7;
+	var a = document.getelementbyID("x").value
+	if (y == a)
+	{
+	alert("you win");
+	}
+</script>
+</body>
+</html>
+
+
